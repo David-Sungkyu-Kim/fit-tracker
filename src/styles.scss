@@ -1,25 +1,29 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+$baseFontSize: 1.6rem;
+$baseLinkColor: #fff;
+$baseLinkHoverColor: lightgray;
+
 html {
   font-family: Roboto, sans-serif;
   font-size: 10px;
   height: 100%;
 }
-
 body {
   height: 100%;
   margin: 0;
-  font-size: 1.6rem;
+  font-size: $baseFontSize;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
-  font-size: 1.6rem;
+  color: $baseLinkColor;
+  font-size: $baseFontSize;
 }
 
 a:hover,
 a:active {
-  color: lightgray;
+  color: $baseLinkHoverColor
 }
 
 ul {
@@ -28,4 +32,4 @@ ul {
   padding: 0;
 }
 
-/*# sourceMappingURL=styles.css.map */
+

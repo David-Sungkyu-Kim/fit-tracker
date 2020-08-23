@@ -3,11 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "f-tracker": {
+    "fit-tracker": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "css"
+          "style": "scss"
         }
       },
       "root": "",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/f-tracker",
+            "outputPath": "dist/fit-tracker",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -43,7 +43,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
+              "extractscss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "f-tracker:build"
+            "browserTarget": "fit-tracker:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "f-tracker:build:production"
+              "browserTarget": "fit-tracker:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "f-tracker:build"
+            "browserTarget": "fit-tracker:build"
           }
         },
         "test": {
@@ -92,7 +92,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -114,15 +114,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "f-tracker:serve"
+            "devServerTarget": "fit-tracker:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "f-tracker:serve:production"
+              "devServerTarget": "fit-tracker:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "f-tracker"
+  "defaultProject": "fit-tracker"
 }
