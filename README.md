@@ -1,6 +1,6 @@
 # Fit-tracker
 ## Daily training history
-<img src="./preview/fit01.png" width="300"> <img src="./preview/fit02.png" width="300"> <img src="./preview/fit03.png" width="300">
+<img src="./preview/fit01.png" width="200"> <img src="./preview/fit02.png" width="200"> <img src="./preview/fit03.png" width="200">
 
 ## Development server
 
