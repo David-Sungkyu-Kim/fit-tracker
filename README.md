@@ -1,6 +1,5 @@
 # Fit-tracker
-
-preview
+<img src="./preview/fit01.png" width="300"> <img src="./preview/fit02.png" width="300"> <img src="./preview/fit03.png" width="300">
 
 ## Development server
 
